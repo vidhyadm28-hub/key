@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int n,key;
+    printf("Enter the size of array:");
+    scanf("%d",&n);
+    printf("Enter the key:");
+    scanf("%d",&key);
+    int arr1[n];
+    for(int i=0;i<=n-1;i++)
+    {
+        scanf("%d",&arr1[i]);
+        if(key == arr1[i])
+        {
+            printf("Key is Found\n");
+            break;
+        
+            printf("Key is not Found");
+        }
+        
+    }
+
+}
